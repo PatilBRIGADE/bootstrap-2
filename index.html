@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Kitchen</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/logo/Logo.svg" alt="Chef's Kitchen" height="30">
+                Chef's Kitchen.
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="tel:+19092359814" class="text-dark text-decoration-none me-3">+1(909) 235-9814</a>
+                    <button class="btn btn-outline-secondary me-2">Sign In</button>
+                    <button class="btn btn-danger">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Cook anything<br>with the experts</h1>
+                <p class="text-muted mb-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam.</p>
+                <div class="d-flex gap-3">
+                    <button class="btn btn-danger btn-lg">Lets cook</button>
+                    <button class="btn btn-outline-danger btn-lg">Explore now</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="position-relative">
+                    
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/hero/banner-image.png" alt="Chef cooking" class="img-fluid rounded-circle">
+                   
+                    <div class="position-absolute bottom-0 start-0 bg-white rounded p-3 shadow-sm">
+                        <p class="mb-0">More than 500+ recipes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container py-5">
+        <!-- Features Header -->
+        <div class="text-center mb-5">
+            <p class="text-danger mb-2">F E A T U R E S</p>
+            <h2 class="display-4 fw-bold">Get a many of interesting<br>features.</h2>
+        </div>
+    
+        <!-- Features Cards -->
+        <div class="row g-4">
+            <!-- Menu Variations Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 bg-light rounded-4 text-center p-4">
+                    <div class="mb-0 mx-auto">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Features/featureOne.svg" alt="Menu" width="200" height="200">
+                    </div>
+                    <h4 class="mb-3">Menu variations</h4>
+                    <p class="text-muted mb-3">Sed ut perspiciatis unde omnis iste natus error</p>
+                    <a href="#" class="text-danger text-decoration-none">Learn More &gt;</a>
+                </div>
+            </div>
+    
+            <!-- Cooking Warw Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 bg-light rounded-4 text-center p-4">
+                    <div class="mb-0 mx-auto">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Features/featureTwo.svg" alt="Cooking" width="200" height="200">
+                    </div>
+                    <h4 class="mb-3">Cooking warw</h4>
+                    <p class="text-muted mb-3">Sed ut perspiciatis unde omnis iste natus error</p>
+                    <a href="#" class="text-danger text-decoration-none">Learn More &gt;</a>
+                </div>
+            </div>
+    
+            <!-- Best Chef Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 bg-light rounded-4 text-center p-4">
+                    <div class="mb-0 mx-auto">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Features/featureThree.svg" alt="Chef" width="200" height="200">
+                    </div>
+                    <h4 class="mb-3">Best chef</h4>
+                    <p class="text-muted mb-3">Sed ut perspiciatis unde omnis iste natus error</p>
+                    <a href="#" class="text-danger text-decoration-none">Learn More &gt;</a>
+                </div>
+            </div>
+    
+            <!-- Fast Food Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card h-100 border-0 bg-light rounded-4 text-center p-4">
+                    <div class="mb-0 mx-auto">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Features/featureFour.svg" alt="Fast Food" width="200" height="200">
+                    </div>
+                    <h4 class="mb-3">Fast food</h4>
+                    <p class="text-muted mb-3">Sed ut perspiciatis unde omnis iste natus error</p>
+                    <a href="#" class="text-danger text-decoration-none">Learn More &gt;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="row ">
+            <!-- Left Image Column -->
+            <div class="col-lg-6 position-relative">
+                <div class="bg-warning rounded-circle overflow-hidden">
+                    <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/cook/cook.png" alt="Chef with salad" class="img-fluid">
+                </div>
+            </div>
+    
+            <!-- Right Content Column -->
+            <div class="col-lg-6 ps-lg-5 text-center">
+                <div class="mb-4">
+                    <p class="text-danger mb-2">C O O K   W I T H   U S</p>
+                    <h2 class="display-4 fw-bold mb-4">Cooking together with the expert.</h2>
+                    <p class="text-muted mb-4">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+                    </p>
+                    <p class="text-muted mb-4">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...
+                    </p>
+                    <button class="btn btn-danger px-4 py-2">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5" style="background-color: #FFF5F5;">
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+            <p class="text-danger mb-2">E X P E R T  C H E F S</p>
+            <h2 class="display-4 fw-bold">Let's meet the expert.</h2>
+        </div>
+    
+        <!-- Chef Cards Row -->
+        <div class="row justify-content-center g-4">
+            <div class="position-relative d-inline-block">
+                <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/cook/burger.png" alt="pan" width="180">
+            </div>
+            <!-- Chef 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="text-center">
+                    <div class="position-relative d-inline-block">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Expert/girl.png" alt="Shoo Thar Mien" class="img-fluid" width="350">
+                        <!-- LinkedIn Icon -->
+                        <div class="position-absolute bottom-0 end-0">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Expert/Linkedin.svg" alt="LinkedIn" width="180">
+                        </div>
+                    </div>
+                    <h4 class="mt-0 mb-2">Shoo Thar Mien</h4>
+                    <p class="text-muted">Junior Chef</p>
+                </div>
+            </div>
+    
+            <!-- Chef 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="text-center">
+                    <div class="position-relative d-inline-block">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Expert/boyone.svg" alt="Shoo Thar Mien" class="img-fluid" width="350">
+                        <!-- LinkedIn Icon -->
+                        <div class="position-absolute bottom-0 end-0">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Expert/Linkedin.svg" alt="LinkedIn" width="180">
+                        </div>
+                    </div>
+                    <h4 class="mt-0 mb-2">Shoo Thar Mien</h4>
+                    <p class="text-muted">Junior Chef</p>
+                </div>
+            </div>
+    
+            <!-- Chef 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="text-center">
+                    <div class="position-relative d-inline-block">
+                        <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Expert/boytwo.svg" alt="Shoo Thar Mien" class="img-fluid" width="350">
+                        <!-- LinkedIn Icon -->
+                        <div class="position-absolute bottom-0 end-0">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Expert/Linkedin.svg" alt="LinkedIn" width="180">
+                        </div>
+                    </div>
+                    <h4 class="mt-0 mb-2">Shoo Thar Mien</h4>
+                    <p class="text-muted">Senior Chef</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <!-- Gallery Header -->
+        <div class="text-center mb-5">
+            <p class="text-danger mb-2">O U R  G A L L E R Y</p>
+            <h2 class="display-4 fw-bold">Gallery of our cooked food.</h2>
+        </div>
+    
+        <!-- Gallery Grid -->
+        <div class="row g-4">
+            <!-- Large Image -->
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <div class="card border-0 rounded-4 overflow-hidden h-100 ">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Gallery/foodone.jpg" alt="Caesar Salad" class="img-fluid h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="card border-0 rounded-4 overflow-hidden h-100 ">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Gallery/foodthree.jpg" alt="Caesar Salad" class="img-fluid h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="col-lg-6">
+                <!-- Top Image with Overlay -->
+                 <div class="row">
+                    <div class="col-12">
+                        <div class="card border-0 rounded-4 overflow-hidden mb-4">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Gallery/foodtwo.jpg" alt="Christmas salad" class="img-fluid">
+                        </div>
+                    </div>
+                 </div>
+                
+                 <div class="row">
+                    <div class="col-12">
+                        <div class="card border-0 rounded-4 overflow-hidden mb-4">
+                            <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free//images/Gallery/foodfour.jpg" alt="Christmas salad" class="img-fluid">
+                        </div>
+                    </div>
+                 </div>
+
+               
+    
+                <!-- Bottom Row -->
+           
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="card border-0 bg-danger text-white rounded-4 p-4 p-md-5 position-relative overflow-hidden">
+            <div class="row align-items-center">
+                <!-- Newsletter Content -->
+                <div class="col-lg-6">
+                    <p class="text-uppercase mb-2">Newsletter</p>
+                    <h2 class="display-4 fw-bold mb-4">Subscribe our newsletter.</h2>
+                    
+                    <!-- Email Subscription Form -->
+                    <div class="input-group">
+                        <input type="email" class="form-control form-control-lg rounded-pill py-3 ps-4" 
+                               placeholder="enter your email address">
+                        <button class="btn btn-dark rounded-circle position-absolute end-0 top-50 translate-middle-y me-2" 
+                                type="submit">
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <!-- Decorative Elements -->
+                <div class="col-lg-6 position-relative">
+                    <!-- Food Bowl Image -->
+                    <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Newsletter/soup.svg" alt="Curry Bowl" 
+                         class="img-fluid position-absolute bottom-3 end-0" 
+                         style="max-width: 400px;">
+                    
+                    <!-- Decorative Elements -->
+                    <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Newsletter/lec.svg" alt="Lettuce" 
+                         class="position-absolute bottom-0 end-0" 
+                         style="max-width: 200px;">
+                    <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/Newsletter/onion.svg" alt="Onion" 
+                         class="position-absolute top-0 start-50" 
+                         style="max-width: 180px;">
+                    
+                    <!-- Decorative Circles -->
+                    <div class="position-absolute" style="top: 20%; right: 30%;">
+                        <div class="rounded-circle bg-warning" style="width: 20px; height: 20px;"></div>
+                    </div>
+                    <div class="position-absolute" style="bottom: 30%; right: 10%;">
+                        <div class="rounded-circle bg-primary" style="width: 15px; height: 15px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container py-5">
+        <!-- Top Section -->
+        <div class="row mb-5">
+            <!-- Brand Column -->
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="d-flex align-items-center mb-3">
+                    <img src="https://themewagon.github.io/chefs-kitchen-nextjs-free/images/logo/Logo.svg" alt="Chef's Kitchen" height="30">
+                    <h5 class="ms-2 mb-0">Chef's Kitchen.</h5>
+                </div>
+                <p class="text-muted mb-4">Open an account in minutes, get full financial control for much longer.</p>
+                <!-- Social Media Icons -->
+                <div class="d-flex gap-3">
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger btn-sm rounded-circle">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Company Column -->
+            <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                <h5 class="mb-4">Company</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mobile</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How we work?</a></li>
+                </ul>
+            </div>
+    
+            <!-- Information Column -->
+            <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+                <h5 class="mb-4">Information</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help/FAQ</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Press</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliates</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hotel owners</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Partners</a></li>
+                </ul>
+            </div>
+    
+            <!-- More Column -->
+            <div class="col-lg-3 col-md-4">
+                <h5 class="mb-4">More</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Recipe</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
